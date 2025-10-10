@@ -74,7 +74,7 @@ DATABASES = {
         "USER": os.environ.get("DB_USER", ""),        # default empty string
         "PASSWORD": os.environ.get("DB_PASSWORD", ""),# default empty string
         "HOST": os.environ.get("DB_HOST", "localhost"),
-        "PORT": os.environ.get("DB_PORT", "3306"),
+        "PORT": os.environ.get("3306"),
     }
 }
 
