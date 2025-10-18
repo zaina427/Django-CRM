@@ -14,11 +14,14 @@ SECRET_KEY = "django-insecure-vq$swlb76=4)$3h27+4zir)z+#6(31xnul^_hmm$he7!gg+$5n
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['django-crm-production-e17f.up.railway.app', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ["*", "django-crm-production-e17f.up.railway.app"]
+
+
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://django-crm-production-e17f.up.railway.app',
+    "https://django-crm-production-e17f.up.railway.app"
 ]
+
 
 
 
